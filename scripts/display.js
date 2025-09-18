@@ -16,7 +16,7 @@ const displayPlants=(plants)=>{
         const card=document.createElement("div");
         card.innerHTML=`
         
-            <div class="w-[300px] h-[] bg-slate-200 p-4 mb-4 rounded-lg">
+            <div class="w-[300px] h-[] bg-white p-4 mb-4 rounded-lg">
                  <div class="w-[270px] h-[179px] bg-white rounded-lg mb-[8px]">
                        <img class="w-[270px] h-[179px] rounded-lg" src="${plant.image}" alt="">
                  </div>
